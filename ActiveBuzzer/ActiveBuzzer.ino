@@ -1,8 +1,8 @@
-//Sketch activates active buzzer to simulate heartbeat monitor.
+//Description: Activates active buzzer to simulate heartbeat monitor.
 
 namespace{
   namespace Buzzer{
-    uint8_t pin{12};
+    constexpr uint8_t pin{12};
     unsigned long soundDuration{500};
   }
 }
